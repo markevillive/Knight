@@ -1,3 +1,58 @@
-body{
-    background-color: slategrey;
+/*-------------Header------------------------*/
+.main-header{
+    background: url("../img/bg_footer.jpg") center no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 813px;
+    color: #fff;
 }
+.header-knight img{
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    width: 759px;
+    height: 796px;
+    z-index: 219;
+}
+.navbar-nav{
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 6.213;
+    text-align: center;
+    position: absolute;
+    left: 690.484px;
+    top: -0.13px;
+    z-index: 233;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    color: rgb(212, 14, 14);
+    line-height: 1.39;
+
+
+}
+.main-header-txt{
+    position: relative;
+}
+.main-header h3{
+    font-size: 68.677px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.809;
+    text-align: left;
+
+}
+.redspan-big{
+    font-size: 94.221px;
+    font-family: "Open Sans";
+    color: rgb(212, 14, 14);
+    line-height: 1.39;
+    text-align: left;
+}
+
+
+
