@@ -9,9 +9,9 @@
 .header-knight img{
     position: absolute;
     left: 5px;
-    top: 30px;
-    width: 759px;
-    height: 796px;
+    top: 20px;
+    /*width: 700px;
+    height: 700px;*/
     z-index: 219;
 }
 .navbar-nav{
