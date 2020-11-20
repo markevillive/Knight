@@ -47,12 +47,18 @@ h4{
     overflow: auto
 }
 .main-header-text{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    padding: 20px;
+}
+.main-header-text-content{
     text-align: center;
 }
 .main-header .navbar-brand{
 color: #fff;
-font-size: 53px;
-font-weight: 600;
+font-size: 40px;
+font-weight: normal;
 
 }
 .main-header .navbar-brand span{
@@ -83,6 +89,58 @@ font-weight: 600;
 }
 .main-header h3 span{
     color: #ff0000;
-    font-size: 144px;
+    font-size: 90px;
     font-weight: 700;
+}
+.main-header h4{
+    margin-bottom: 30px;
+}
+/*=====================================================MEDIA========================================*/
+/*  Large Device, Wide screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Device, Desktops */
+@media only screen and (max-width : 992px){
+
+}
+@media only screen and (max-width: 991px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px){
+
+
+
+}
+@media only screen and (max-width: 519px){
+    .main-header h3{
+        font-size: 20px;
+    }
+    .main-header h3 span{
+        font-size: 90px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+
+}
+
+@media only screen and (max-width: 352px){
+
+}
+
+@media only screen and (max-width: 352px){
+    .main-header .navbar-brand{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 330px){
+    .main-header h4{
+        font-size: 30px;
+    }
 }
