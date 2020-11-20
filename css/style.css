@@ -1,58 +1,110 @@
-/*-------------Header------------------------*/
-.main-header{
-    background: url("../img/bg_footer.jpg") center no-repeat;
-    background-size: cover;
-    height: 100%;
-    min-height: 813px;
+body{
+    font-family: "Open Sans";
+}
+h2{
+    font-family: "Open Sans Light";
+    font-style: italic;
+    font-size: 30px;
+
+}
+.default-btn{
+    border-radius: 0;
+    border: 2px solid #fff;
     color: #fff;
 }
-.header-knight img{
-    position: absolute;
-    left: 5px;
-    top: 20px;
-    /*width: 700px;
-    height: 700px;*/
-    z-index: 219;
+.default-btn:hover{
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
 }
-.navbar-nav{
-    font-size: 20px;
-    font-family: "Open Sans";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 6.213;
+.navbar-expand-lg .navbar-nav a {
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+}
+/*===================================HEADER MAIN-HEADER======================================*/
+.main-header{
+    background: url("../img/bg_footer.jpg");
+    color: #fff;
+}
+.main-header .navbar-toggler{
+    color: #ffffff;
+}
+.main-header .navbar .navbar-brand{
+    font-size: 40px;
+    font-weight: 600;
+}
+.span-red{
+    color: #ff0000;
+}
+.main-header-content-header{
+font-weight: 700;
+    font-size: 60px;
+}
+.span-red-big{
+    color: #ff0000;
+    font-size: 144px;
+}
+.main-header-content-body{
     text-align: center;
+}
+
+.main-header-buttons{
+    text-align: center;
+}
+.main-header ul li a{
+    font-size: 17px;
+}
+.main-header ul li a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+
+
+}
+
+.main-header ul li a:hover::after{
+    transform: scale(1);
+}
+.main-header-text{
     position: absolute;
-    left: 690.484px;
-    top: -0.13px;
-    z-index: 233;
+    top: 25%;
+    left: 5%;
+    max-width: 600px;
+    color: #fff;
+    padding: 25px;
 }
-.navbar-brand{
-    font-size: 30px;
-    font-weight: 700;
-    font-family: "Open Sans";
-    color: rgb(212, 14, 14);
-    line-height: 1.39;
-
+main-header-content{
+    margin: 0 auto;
+    padding: 20px;
 
 }
-.main-header-txt{
-    position: relative;
-}
-.main-header h3{
-    font-size: 68.677px;
-    font-family: "Open Sans";
-    color: rgb(255, 255, 255);
-    line-height: 1.809;
-    text-align: left;
+/*=====================================================MEDIA========================================*/
+/*  Large Device, Wide screens */
+@media only screen and (max-width: 1200px) {
 
 }
-.redspan-big{
-    font-size: 94.221px;
-    font-family: "Open Sans";
-    color: rgb(212, 14, 14);
-    line-height: 1.39;
-    text-align: left;
+
+/* Medium Device, Desktops */
+@media only screen and (max-width : 992px){
+
+}
+@media only screen and (max-width: 991px){
+
 }
 
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px){
 
 
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+
+}
