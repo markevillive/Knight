@@ -115,7 +115,32 @@ font-weight: normal;
 .main-header-button-group{
     margin-top: 30px;
 }
-
+/*===========================================SECTION SKILLS===============================*/
+.section-skills{
+    background: url("../img/bg-skill.png" ) center no-repeat;
+    background-size: cover;
+}
+.section-skills h3{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    margin-top: 80px;
+}
+.section-skills h4{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 65px;
+    color: #fff;
+    background-color: #ff0000;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.section-skills h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
 /*=====================================================MEDIA========================================*/
 /*  Large Device, Wide screens */
 @media only screen and (max-width: 1200px) {
