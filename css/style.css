@@ -1,0 +1,170 @@
+@import "../fonts/stylesheet.css";
+body{
+    font-family: "HelveticaNeueCyr";
+    min-width: 320px;
+    color: #1e0404;
+    background-color: #fff;
+}
+img{
+    max-width: 100;
+    height: auto;
+}
+section{
+    padding: 100px 0;
+}
+h3{
+    font-style: italic;
+    font-size: 30px;
+    font-family: "Open Sans";
+}
+
+h4{
+    font-weight: bolder;
+    font-size: 44px;
+    font-family: "Open Sans";
+    margin-bottom: 75px;
+}
+p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+/*==========================Buttons==================================*/
+.btn-default{
+    border-radius: 0;
+    border: #fff solid 2px;
+    color: #ffffff;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+.btn-default:hover{
+    border-radius: 0;
+    border: #000 solid 2px;
+    color: #000;
+    background-color: #fff;
+    opacity: .7;
+}
+/*========================================HEADERS========================================*/
+/*====================MAIN-HEADER==========================*/
+.main-header{
+    color: #fff;
+    background: #000 url("../img/bg_header.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+    position: relative;
+    overflow: auto
+}
+.navbar-toggler{
+    color: #fff;
+}
+.main-header-text{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    padding: 20px;
+}
+.main-header-text-content{
+    text-align: center;
+}
+.main-header .navbar-brand{
+color: #fff;
+font-size: 40px;
+font-weight: normal;
+
+}
+.main-header .navbar-brand span{
+    color: #ff0000;
+    font-weight: 800;
+}
+.main-header ul{
+    margin-right: 250px;
+}
+.main-header ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-header ul li a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 1px;
+    transform: scale(0);
+    transition: all .5s;
+}
+.main-header ul li a:hover::after{
+    transform: scale(1);
+}
+
+.main-header h3{
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+}
+.main-header h3 span{
+    color: #ff0000;
+
+
+}
+.main-header h4{
+    margin-bottom: 30px;
+}
+.main-header-button-group{
+    margin-top: 30px;
+}
+
+/*=====================================================MEDIA========================================*/
+/*  Large Device, Wide screens */
+@media only screen and (max-width: 1200px) {
+
+}
+.main-header ul{
+    margin-right: auto;
+}
+/* Medium Device, Desktops */
+@media only screen and (max-width : 992px){
+    .main-header h3 {
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 991px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px){
+
+
+
+}
+@media only screen and (max-width: 540px){
+    .main-header h3{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 519px){
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .main-header h3 {
+        font-size: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 380px){
+    .main-header .navbar-brand{
+        font-size: 30px;
+    }
+    .main-header h4{
+        font-size: 30px;
+    }
+}
+
