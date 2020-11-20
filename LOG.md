@@ -40,7 +40,11 @@
 - Очищены все файлы.
 - В index.html перенесен код из [Bootstrap Starter template](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template)
 - Подключены кастомные css и js, шрифт Open Sans, заданы стили для body.
--
 
+## Main Header
+- Создан хедер главной страницы с классом `.main-header`
+- В верх элемента добавлен навбар-дарк из [тимплейтов Бутстрапа](https://getbootstrap.com/docs/4.5/components/navbar/)
+- Выполнена разметка хедера.
+- Сделан коммит Header 2.0.0
 
 
