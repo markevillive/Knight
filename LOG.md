@@ -30,4 +30,17 @@
 ### Блок шапки.
 > Хедер включает в себя два изображения - фон и картинку с рыцарем.
 > 
+> 
+
+# 20.11.2020 On branch feature
+
+----------------------------
+
+## Restart
+- Очищены все файлы.
+- В index.html перенесен код из [Bootstrap Starter template](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template)
+- Подключены кастомные css и js, шрифт Open Sans, заданы стили для body.
+-
+
+
 

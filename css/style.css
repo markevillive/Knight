@@ -1,110 +1,27 @@
 body{
     font-family: "Open Sans";
+    min-width: 320px;
+    color: #1e0404;
+    background-color: #fff;
 }
-h2{
-    font-family: "Open Sans Light";
+img{
+    max-width: 100;
+    height: auto;
+}
+section{
+    padding: 100px 0;
+}
+h3{
     font-style: italic;
     font-size: 30px;
-
-}
-.default-btn{
-    border-radius: 0;
-    border: 2px solid #fff;
-    color: #fff;
-}
-.default-btn:hover{
-    border: 2px solid #000;
-    background-color: #fff;
-    color: #000;
-}
-.navbar-expand-lg .navbar-nav a {
-    display: block;
-    padding: .5rem 1rem;
-    text-decoration: none;
-}
-/*===================================HEADER MAIN-HEADER======================================*/
-.main-header{
-    background: url("../img/bg_header.jpg");
-    color: #fff;
-}
-.main-header .navbar-toggler{
-    color: #ffffff;
-}
-.main-header .navbar .navbar-brand{
-    font-size: 40px;
-    font-weight: 600;
-}
-.span-red{
-    color: #ff0000;
-}
-.main-header-content-header{
-font-weight: 700;
-    font-size: 60px;
-}
-.span-red-big{
-    color: #ff0000;
-    font-size: 144px;
-}
-.main-header-content-body{
-    text-align: center;
+    font-family: "Open Sans";
 }
 
-.main-header-buttons{
-    text-align: center;
+h4{
+    font-weight: bolder;
+    font-size: 44px;
+    font-family: "Open Sans";
+    margin-bottom: 75px;
 }
-.main-header ul li a{
-    font-size: 17px;
-}
-.main-header ul li a::after{
-    content: '';
-    display: block;
-    width: 100%;
-    background-color: #fff;
-    height: 1px;
-    transform: scale(0);
-    transition: all .3s;
-
-
-}
-
-.main-header ul li a:hover::after{
-    transform: scale(1);
-}
-.main-header-text{
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    max-width: 600px;
-    color: #fff;
-    padding: 25px;
-}
-main-header-content{
-    margin: 0 auto;
-    padding: 20px;
-
-}
-/*=====================================================MEDIA========================================*/
-/*  Large Device, Wide screens */
-@media only screen and (max-width: 1200px) {
-
-}
-
-/* Medium Device, Desktops */
-@media only screen and (max-width : 992px){
-
-}
-@media only screen and (max-width: 991px){
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px){
-
-
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px){
-
-}
+/*========================================HEADERS========================================*/
+/*====================MAIN-HEADER==========================*/
