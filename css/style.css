@@ -44,6 +44,7 @@ h4{
     height: 100vh;
     min-height: 600px;
     position: relative;
+    overflow: auto
 }
 .main-header-text{
     text-align: center;
