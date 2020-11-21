@@ -26,7 +26,7 @@ h4{
 }
 p{
     font-size: 20px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 /*==========================Buttons==================================*/
 .btn-default{
@@ -43,6 +43,21 @@ p{
     border: #000 solid 2px;
     color: #000;
     background-color: #fff;
+    opacity: .7;
+}
+.btn-default-invert{
+    border-radius: 0;
+    border: #000 solid 2px;
+    color: #000000;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+.btn-default-invert{
+    border: #fff solid 2px;
+    color: #ffffff;
+    background-color: #000;
     opacity: .7;
 }
 /*========================================HEADERS========================================*/
