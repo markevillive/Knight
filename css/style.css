@@ -233,6 +233,7 @@ font-weight: normal;
 .section-blog .article-preview:hover{
     box-shadow: 0 14px 30px -15px rgba(0, 0, 0, .95);
 }
+
 /*=====================================================MEDIA========================================*/
 /*  Large Device, Wide screens */
 @media only screen and (max-width: 1200px) {
