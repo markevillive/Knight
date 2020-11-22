@@ -306,7 +306,21 @@ font-weight: normal;
 .client-position::after{
     content: ' -';
 }
-
+/*===================================SECTION BRANDS=================================================*/
+.section-brands{
+    background: url("../img/bg-brands.png") center no-repeat;
+    background-size: cover;
+}
+.section-brands h4::after {
+    content: '~';
+    display: block;
+}
+/*=====================================MAIN FOOTER==================================================*/
+.main-footer{
+    background: url("../img/bg-footer.jpg") center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
 /*=====================================================MEDIA========================================*/
 /*  Large Device, Wide screens */
 @media only screen and (max-width: 1200px) {
