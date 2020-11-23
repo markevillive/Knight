@@ -204,10 +204,10 @@ font-weight: normal;
     background-size: cover;
 
 }
-.section-blog h3{
+.section-blog h4{
  margin-bottom: 50px;
 }
-.section-blog h3::after{
+.section-blog h4::after{
     content: '~';
     display: block;
 }
@@ -319,6 +319,8 @@ font-weight: normal;
 .main-footer{
     background: url("../img/bg-footer.jpg") center no-repeat;
     background-size: cover;
+    height: 100vh;
+    min-height: 600px;
     color: #fff;
 }
 /*=====================================================MEDIA========================================*/
