@@ -315,12 +315,17 @@ font-weight: normal;
     content: '~';
     display: block;
 }
+/*=======================================SECTION FORM===============================================*/
+.section-form{
+    background: url("../img/bg-form.png") center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
 /*=====================================MAIN FOOTER==================================================*/
 .main-footer{
     background: url("../img/bg-footer.jpg") center no-repeat;
     background-size: cover;
-    height: 100vh;
-    min-height: 600px;
+    height: 760px;
     color: #fff;
 }
 /*=====================================================MEDIA========================================*/
