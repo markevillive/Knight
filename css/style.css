@@ -40,7 +40,14 @@ p{
     content: "~";
     display: block;
 }
-
+.btn-danger{
+    background-color: #ff0000!important;
+}
+.btn-submit{
+    background-color: #5729cd;
+    color: #fff;
+    
+}
 /*========================================HEADERS========================================*/
 /*====================MAIN-HEADER==========================*/
 .main-header{
@@ -57,7 +64,7 @@ p{
 }
 .main-header-text{
     position: absolute;
-    top: 25%;
+    top: 15%;
     right: 5%;
     padding: 20px;
 }
@@ -304,8 +311,10 @@ font-weight: normal;
 }
 .section-form .btn{
     width: 100%;
-    font-size: 30px;
+    height: 100%;
+    font-size: 20px;
     border: 1px solid #000;
+
     /*box-shadow: 0 2px 5px 2px rgba(0, 0, 0, .95);*/
 }
 /*=====================================MAIN FOOTER==================================================*/
