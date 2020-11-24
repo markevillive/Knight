@@ -12,11 +12,11 @@ a:hover{
     color: #000;
 }
 img{
-    max-width: 100;
+    max-width: 100%;
     height: auto;
 }
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 h3{
     font-style: italic;
@@ -33,22 +33,19 @@ p{
     font-size: 20px;
     font-weight: 300;
 }
-
-/*==========================Buttons==================================*/
-.btn{
-
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    border-radius: 0;
-    border: 1px solid;
-
-    text-transform: uppercase;
-}
-
-.button-group{
+.section_title{
     text-align: center;
-    margin-bottom: 20px;
+}
+.section_title::after{
+    content: "~";
+    display: block;
+}
+.btn-danger{
+    background-color: #ff0000!important;
+}
+.btn-submit{
+    background-color: #5729cd;
+    color: #fff;
 
 }
 /*========================================HEADERS========================================*/
@@ -67,7 +64,7 @@ p{
 }
 .main-header-text{
     position: absolute;
-    top: 25%;
+    top: 15%;
     right: 5%;
     padding: 20px;
 }
@@ -127,7 +124,7 @@ font-weight: normal;
 
 /*===========================================SECTION SKILLS===============================*/
 .section-skills{
-    background: url("../img/bg-skill.png" ) center no-repeat;
+    background: url("../img/bg_white2.png" ) center no-repeat;
     background-size: cover;
 }
 .section-skills h3{
@@ -158,10 +155,7 @@ font-weight: normal;
     color: #fff;
 
 }
-.section-gallery h4::after{
-    content: "~";
-    display: block;
-}
+
 .section-gallery .nav-pills{
     margin: 30px 0;
 }
@@ -200,20 +194,16 @@ font-weight: normal;
 
 /*====================================================SECTION BLOG=======================================*/
 .section-blog{
-    background: url("../img/bg-blog.png") center no-repeat;
+    background: url("../img/bg_white2.png") center no-repeat;
     background-size: cover;
-
 }
-.section-blog h3{
+/*.section-blog h4{
  margin-bottom: 50px;
 }
-.section-blog h3::after{
-    content: '~';
-    display: block;
-}
-.section-blog h4{
+
+/*.section-blog h4{
     font-size: 30px;
-}
+}*/
 .section-blog img{
     margin: 10px;
 }
@@ -239,10 +229,6 @@ font-weight: normal;
     background-size: cover;
     color: #fff;
 
-}
-.section-reviews h4::after{
-    content: '~';
-    display: block;
 }
 .section-reviews blockquote{
     font-style: italic;
@@ -311,15 +297,55 @@ font-weight: normal;
     background: url("../img/bg-brands.png") center no-repeat;
     background-size: cover;
 }
-.section-brands h4::after {
-    content: '~';
-    display: block;
+
+/*=======================================SECTION FORM===============================================*/
+.section-form{
+    background: url("../img/bg_form.png") center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.section-form p{
+    font-style: italic;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    border-radius: 10px;
+}
+.section-form .btn{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    border: 1px solid #000;
+
+    /*box-shadow: 0 2px 5px 2px rgba(0, 0, 0, .95);*/
 }
 /*=====================================MAIN FOOTER==================================================*/
 .main-footer{
-    background: url("../img/bg-footer.jpg") center no-repeat;
+    background: url("../img/bg_footer.png") center no-repeat;
     background-size: cover;
+    /*height: 100vh;
+    min-height: 1200px;
+    /*position: relative;
+    /*overflow: auto;*/
     color: #fff;
+}
+.main-footer a{
+    color: #fff;
+}
+.main-footer h3{
+    margin-top: 50px;
+}
+.main-footer span{
+    color: #ff0000;
+    font-weight: 800;
+}
+.social-list li{
+    display: inline-block;
+    margin: 5px;
+}
+.social-icon{
+    width: 48px;
+}
+.publishers-imprint{
+    margin-top: 80px;
 }
 /*=====================================================MEDIA========================================*/
 /*  Large Device, Wide screens */
