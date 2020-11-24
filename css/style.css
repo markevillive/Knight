@@ -12,11 +12,11 @@ a:hover{
     color: #000;
 }
 img{
-    max-width: 100;
+    max-width: 100%;
     height: auto;
 }
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 h3{
     font-style: italic;
@@ -35,7 +35,7 @@ p{
 }
 
 /*==========================Buttons==================================*/
-.btn{
+/*.btn{
 
     font-size: 20px;
     font-style: normal;
@@ -50,7 +50,7 @@ p{
     text-align: center;
     margin-bottom: 20px;
 
-}
+}*/
 /*========================================HEADERS========================================*/
 /*====================MAIN-HEADER==========================*/
 .main-header{
@@ -317,9 +317,17 @@ font-weight: normal;
 }
 /*=======================================SECTION FORM===============================================*/
 .section-form{
-    background: url("../img/bg-form.png") center no-repeat;
+    background: url("../img/bg_form.png") center no-repeat;
     background-size: cover;
+    height: 100vh;
     color: #fff;
+}
+.section-form p{
+    font-style: normal;
+}
+.section-form .btn{
+    width: 100%;
+    font-size: 30px;
 }
 /*=====================================MAIN FOOTER==================================================*/
 .main-footer{
