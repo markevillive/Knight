@@ -78,6 +78,9 @@ p{
 .scrollToTop:visited{
     outline: none;
 }
+.bg-danger{
+    background-color: #ff0000 !important;
+}
 /*========================================HEADERS========================================*/
 /*====================MAIN-HEADER==========================*/
 .main-header{
@@ -161,7 +164,7 @@ font-weight: normal;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    margin-top: 20px;
+    margin-top: 65px;
 }
 .section-skills h4{
     display: block;
