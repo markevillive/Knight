@@ -183,6 +183,42 @@ $(window).scroll(function( ){
 
 ---------------------------------
 
+### HTML code
+- div располагается сразу за открывающим тегом `body`:
+
+```html
+<div class="preloader d-flex justify-content-center align-items-center"><!---PRELOADER--->
+    <div class="spinner-border text-danger" style="width: 10rem; height: 10rem; color: #ff0000" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div><!------------------------END PRELOADER----------------->
+```
+- Стили - внутри тега `head`, сразу после линка на **Bootstrap**:
+
+```html
+<style>
+        .preloader{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1002;
+            background-color: #000;
+        }
+
+    </style>
+```
+### Javascript
+> Так же как и CSS стили прелоадера - в __В САМОМ ВЕРХУ ФАЙЛА__ main.js !
+
+```javascript
+$(window).on('load', function(){
+        $('.preloader').delay(500).fadeOut('slow', function(){
+            $(this).attr('style', 'display: none !important');
+        });
+    });
+```
 
 
 
