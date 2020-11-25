@@ -220,7 +220,9 @@ $(window).on('load', function(){
         });
     });
 ```
+## Index.html Full complete!
 
+-------------------------------------
 
 
 ## Верстка blog.html.
