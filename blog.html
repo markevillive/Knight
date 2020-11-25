@@ -1,10 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        .preloader{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1002;
+            background-color: #000;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="css/baguetteBox.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PHP Knight</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
+<div class="preloader d-flex justify-content-center align-items-center">
+    <div class="spinner-border text-danger" style="width: 10rem; height: 10rem; color: #ff0000" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div><!------------------------END PRELOADER----------------->
+<button class="scrollToTop"><i class="fas fa-arrow-alt-circle-up"></i></button><!---Button TO TOP--->
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="logo">Php<span>Knight</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Works <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<section class="section-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Blog</h1>
+                <article class="article-preview">
+                    <h2><a href="single.html">Lorem ipsum</a> </h2>
+                    <address class="autor"><a href="single.html">John Smith</a> </address>
+                    <p><span class="article-date"><i class="fas fa-calendar-day"></i>01.01.2000 </span> </p>
+                    <div class="article-excerpt">
+                        <p>
+                            <a href="single.html"><img src="https://picsum.photos/700/450/?blur" class="thumb"></a>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel vehicula est. Cras quis posuere velit. Fusce tellus purus, fermentum eget mollis a, sollicitudin ac nunc. Aliquam commodo leo non posuere dignissim. Donec nisi risus, lacinia nec urna ut, volutpat cursus sapien. Ut sodales nibh magna, in dictum dui elementum quis. Sed suscipit condimentum libero, in bibendum erat convallis ut. Cras libero nulla, molestie lobortis felis sit amet, consequat posuere dui. Mauris in cursus neque. Vivamus condimentum vitae urna ac blandit. Morbi a justo erat. Aenean pretium aliquet massa in eleifend.
+                        </p>
+                        <p>
+                            Cras quis porttitor leo. Nullam a hendrerit ligula. Cras consequat est in diam eleifend, vel luctus nunc viverra. Sed vehicula sapien augue, vitae suscipit arcu aliquam eu. Nunc accumsan, eros nec ultricies fermentum, nulla nisi semper urna, nec tempor nisi mauris at ex. Praesent tempor vestibulum arcu. In dui felis, consectetur eu lectus ac, imperdiet porttitor libero. Integer imperdiet suscipit luctus. In mollis interdum enim, sed rutrum mauris. Suspendisse commodo sapien ut varius imperdiet. Aliquam luctus lacinia mattis. Proin leo massa, varius eu erat vitae, imperdiet mattis mi. Vestibulum mattis laoreet magna, ac auctor nisl semper quis. Suspendisse vitae nunc vel nisl pulvinar ullamcorper in id massa. Sed nec vestibulum ante.
+                        </p>
+                        <p>
+                            Aliquam malesuada eget metus nec luctus. Sed eu nisi vitae tellus lobortis congue. Sed tincidunt euismod mi ac aliquam. Cras eget sapien fringilla, malesuada odio a, tincidunt lorem. Aliquam sed malesuada erat. Proin et consequat libero. Nulla elementum accumsan elementum. In venenatis hendrerit posuere. Vestibulum non mollis sapien. Vivamus a erat ultricies massa maximus pulvinar. Nulla efficitur quis est ac sollicitudin. Cras quis ligula interdum, semper eros non, tincidunt ante. Proin ac porttitor mauris, ut egestas risus. Nullam pellentesque nisl sit amet eros sagittis, sed commodo nunc pellentesque. Proin placerat euismod magna id molestie. Maecenas placerat turpis egestas, pretium tellus quis, finibus turpis.
+                        </p>
+                        <a href="single.html" class="more">Read More</a>
+                    </div>
+                </article>
+                <article class="article-preview">
+                    <h2><a href="single.html">Lorem ipsum</a> </h2>
+                    <address class="autor"><a href="single.html">John Smith</a> </address>
+                    <p><span class="article-date"><i class="fas fa-calendar-day"></i>01.01.2000 </span> </p>
+                    <div class="article-excerpt">
+                        <p>
+                            <a href="single.html"><img src="https://picsum.photos/700/450/?blur" class="thumb"></a>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel vehicula est. Cras quis posuere velit. Fusce tellus purus, fermentum eget mollis a, sollicitudin ac nunc. Aliquam commodo leo non posuere dignissim. Donec nisi risus, lacinia nec urna ut, volutpat cursus sapien. Ut sodales nibh magna, in dictum dui elementum quis. Sed suscipit condimentum libero, in bibendum erat convallis ut. Cras libero nulla, molestie lobortis felis sit amet, consequat posuere dui. Mauris in cursus neque. Vivamus condimentum vitae urna ac blandit. Morbi a justo erat. Aenean pretium aliquet massa in eleifend.
+                        </p>
+                        <p>
+                            Cras quis porttitor leo. Nullam a hendrerit ligula. Cras consequat est in diam eleifend, vel luctus nunc viverra. Sed vehicula sapien augue, vitae suscipit arcu aliquam eu. Nunc accumsan, eros nec ultricies fermentum, nulla nisi semper urna, nec tempor nisi mauris at ex. Praesent tempor vestibulum arcu. In dui felis, consectetur eu lectus ac, imperdiet porttitor libero. Integer imperdiet suscipit luctus. In mollis interdum enim, sed rutrum mauris. Suspendisse commodo sapien ut varius imperdiet. Aliquam luctus lacinia mattis. Proin leo massa, varius eu erat vitae, imperdiet mattis mi. Vestibulum mattis laoreet magna, ac auctor nisl semper quis. Suspendisse vitae nunc vel nisl pulvinar ullamcorper in id massa. Sed nec vestibulum ante.
+                        </p>
+                        <p>
+                            Aliquam malesuada eget metus nec luctus. Sed eu nisi vitae tellus lobortis congue. Sed tincidunt euismod mi ac aliquam. Cras eget sapien fringilla, malesuada odio a, tincidunt lorem. Aliquam sed malesuada erat. Proin et consequat libero. Nulla elementum accumsan elementum. In venenatis hendrerit posuere. Vestibulum non mollis sapien. Vivamus a erat ultricies massa maximus pulvinar. Nulla efficitur quis est ac sollicitudin. Cras quis ligula interdum, semper eros non, tincidunt ante. Proin ac porttitor mauris, ut egestas risus. Nullam pellentesque nisl sit amet eros sagittis, sed commodo nunc pellentesque. Proin placerat euismod magna id molestie. Maecenas placerat turpis egestas, pretium tellus quis, finibus turpis.
+                        </p>
+                        <a href="single.html" class="more">Read More</a>
+                    </div>
+                </article>
+                <article class="article-preview">
+                    <h2><a href="single.html">Lorem ipsum</a> </h2>
+                    <address class="autor"><a href="single.html">John Smith</a> </address>
+                    <p><span class="article-date"><i class="fas fa-calendar-day"></i>01.01.2000 </span> </p>
+                    <div class="article-excerpt">
+                        <p>
+                            <a href="single.html"><img src="https://picsum.photos/700/450/?blur" class="thumb"></a>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel vehicula est. Cras quis posuere velit. Fusce tellus purus, fermentum eget mollis a, sollicitudin ac nunc. Aliquam commodo leo non posuere dignissim. Donec nisi risus, lacinia nec urna ut, volutpat cursus sapien. Ut sodales nibh magna, in dictum dui elementum quis. Sed suscipit condimentum libero, in bibendum erat convallis ut. Cras libero nulla, molestie lobortis felis sit amet, consequat posuere dui. Mauris in cursus neque. Vivamus condimentum vitae urna ac blandit. Morbi a justo erat. Aenean pretium aliquet massa in eleifend.
+                        </p>
+                        <p>
+                            Cras quis porttitor leo. Nullam a hendrerit ligula. Cras consequat est in diam eleifend, vel luctus nunc viverra. Sed vehicula sapien augue, vitae suscipit arcu aliquam eu. Nunc accumsan, eros nec ultricies fermentum, nulla nisi semper urna, nec tempor nisi mauris at ex. Praesent tempor vestibulum arcu. In dui felis, consectetur eu lectus ac, imperdiet porttitor libero. Integer imperdiet suscipit luctus. In mollis interdum enim, sed rutrum mauris. Suspendisse commodo sapien ut varius imperdiet. Aliquam luctus lacinia mattis. Proin leo massa, varius eu erat vitae, imperdiet mattis mi. Vestibulum mattis laoreet magna, ac auctor nisl semper quis. Suspendisse vitae nunc vel nisl pulvinar ullamcorper in id massa. Sed nec vestibulum ante.
+                        </p>
+                        <p>
+                            Aliquam malesuada eget metus nec luctus. Sed eu nisi vitae tellus lobortis congue. Sed tincidunt euismod mi ac aliquam. Cras eget sapien fringilla, malesuada odio a, tincidunt lorem. Aliquam sed malesuada erat. Proin et consequat libero. Nulla elementum accumsan elementum. In venenatis hendrerit posuere. Vestibulum non mollis sapien. Vivamus a erat ultricies massa maximus pulvinar. Nulla efficitur quis est ac sollicitudin. Cras quis ligula interdum, semper eros non, tincidunt ante. Proin ac porttitor mauris, ut egestas risus. Nullam pellentesque nisl sit amet eros sagittis, sed commodo nunc pellentesque. Proin placerat euismod magna id molestie. Maecenas placerat turpis egestas, pretium tellus quis, finibus turpis.
+                        </p>
+                        <a href="single.html" class="more">Read More</a>
+                    </div>
+                </article>
+                <nav aria-label="...">
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active" aria-current="page">
+                            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div><!-----------END CONTENT----------->
+            <div class="col-md-4">
+                <h2>Sidebar</h2>
+                <div class="col-md-4">
+                    <div class="sidebar-widget widget-categories">
+                        <h5>Categories</h5>
+                        <ul>
+                            <li><a href="#">Category 1</a> </li>
+                            <li><a href="#">Category 2</a> </li>
+                            <li><a href="#">Category 3</a> </li>
+                            <li><a href="#">Category 4</a> </li>
+                            <li><a href="#">Category 5</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-----------END SIDEBAR----------->
+
+        </div><!--------END ROW---------------->
+    </div><!--------------------------END CONTAINER--------------------------------->
+
+</section><!---------------------------------------END SECTION CONTENT------------------------------------------------->
+<footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h3>php <span>knight</span>&trade;</h3>
+                <h4 class="section_title">Web Developer Blog</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt ante arcu, nec consectetur mi iaculis in. Maecenas rhoncus mi vel mauris tempus egestas. Vestibulum.
+                </p>
+                <div class="footer-logo">
+                    <img src="img/knight_2.png" alt="phpknight_logo">
+                </div>
+                <div class="social-links">
+                    <h5>Follow me in Social networks</h5>
+                    <ul class="social-list">
+                        <li><a href="#"><img class="social-icon" src="img/social/facebook-icon.png" alt="facebook"></a> </li>
+                        <li><a href="#"><img class="social-icon" src="img/social/twitter-icon.png" alt="twitter"> </a> </li>
+                        <li><a href="#"><img class="social-icon" src="img/social/linkedin-icon.png" alt="linkedin"></a> </li>
+                        <li><a href="#"><img class="social-icon" src="img/social/vk-icon.png" alt="vkontakte"></a> </li>
+                        <li><a href="#"><img class="social-icon" src="img/social/github-icon.png" alt="github"></a> </li>
+                        <li><a href="#"><img class="social-icon" src="img/social/instagram-icon.png" alt="instagram"></a></li>
+                        <li><a href="#"><img class="social-icon" src="img/social/telegram-icon.png" alt="telegram"></a> </li>
+                        <li><a href="#"><img class="social-icon" src="img/social/whatsapp-icon.png" alt="whatsapp"></a> </li>
+                        <li><a href="#"><img class="social-icon" src="img/social/parler_icon.png" alt="parler"> </a> </li>
+                        <li><a href="#"><img class="social-icon" src="img/social/meve-icon.png" alt="mewe"></a> </li>
+                    </ul>
+                </div>
+                <div class="contact-data">
+
+                    <p>Address: 634050 PO-box #### Tomsk, Russia</p>
+                    <p>Email: <a href="mailto:mark_evillive@hotmail.com"> mark_evillive@hotmail.com</a></p>
+                    <p>Phone: +7 960-972-26-46</p>
+                </div>
+                <div class="publishers-imprint">
+                    <small>&copy; Marc Shreder, 2020, All right reserved. PHP <span>Knight</span> &trade; and PHP <span>Knight</span> &trade; Logo is registered trade marks.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper)
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>-->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="js/baguetteBox.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
