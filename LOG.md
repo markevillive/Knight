@@ -113,6 +113,7 @@
 
 - Замена самых тяжелых png на jpg.
 - Создание ветки united для мержа master в develop.
+- Мерж united в ветку develop.
 
   
   
