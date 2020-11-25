@@ -150,7 +150,7 @@ font-weight: normal;
 }
 /*================================================section-gallery========================================*/
 .section-gallery{
-    background: #ff0000 url(/img/bg-gallery.png) no-repeat center;
+    background: #ff0000 url(/img/bg-gallery.jpg) no-repeat center;
     background-size: cover;
     color: #fff;
 
@@ -300,7 +300,7 @@ font-weight: normal;
 
 /*=======================================SECTION FORM===============================================*/
 .section-form{
-    background: url("../img/bg_form.png") center no-repeat;
+    background: url("../img/bg_form.jpg") center no-repeat;
     background-size: cover;
     color: #fff;
 }
@@ -319,7 +319,7 @@ font-weight: normal;
 }
 /*=====================================MAIN FOOTER==================================================*/
 .main-footer{
-    background: url("../img/bg_footer.png") center no-repeat;
+    background: url("../img/bg_footer.jpg") center no-repeat;
     background-size: cover;
     /*height: 100vh;
     min-height: 1200px;
