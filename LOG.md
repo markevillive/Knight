@@ -228,6 +228,11 @@ $(window).on('load', function(){
 ## Верстка blog.html.
 
 --------------------------------------
+### HTML
+
+- Complete
+
+### CSS
 
 ## Верстка single.html.
 
