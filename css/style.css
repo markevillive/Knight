@@ -505,6 +505,32 @@ font-weight: normal;
     background-color: #ff0000;
     border-color: #ff0000;
 }
+/*======================================================section 404======================================*/
+.section-404{
+    background: url("../img/bg_404.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+    color: #fff;
+}
+.section-404 p{
+    font-size: 30px;
+    background-color: rgba(0,0,0, .5);
+}
+.section-404 p span{
+    color: #ff0000;
+    font-size: 45px;
+    font-weight: 600;
+}
+.section-404 p a{
+    color: #ff0000;
+    text-decoration: none;
+    transition: all .5s;
+}
+.section-404 p a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
 /*=====================================================MEDIA========================================*/
 /*  Large Device, Wide screens */
 @media only screen and (max-width: 1200px) {
